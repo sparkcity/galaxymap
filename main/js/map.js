@@ -3,6 +3,6 @@ const map = L.map('map', {
 });
 
 const bounds = [[0, 0], [1000, 1000]];
-const image = L.imageOverlay('../src/img/galaxy1.webp', bounds).addTo(map);
+const image = L.imageOverlay('../src/img/galaxy2.webp', bounds).addTo(map);
 
 map.fitBounds(bounds);
